@@ -5,17 +5,17 @@ public class Indexarray {
 
 public static void main(String[] args) {
       s = new Scanner(System.in);
-     int n=s.nextInt();
-       int a[]=new int[n];
-       for(int i=0;i<n;i++)
+     int k=s.nextInt();
+       int ar[]=new int[k];
+       for(int i=0;i<k;i++)
            {
-           a[i]=s.nextInt();
+           ar[i]=s.nextInt();
        }
        
-       for(int i=0;i<n;i++)
+       for(int i=0;i<k;i++)
        {
-        if(a[i]>=0&&a[i]==i)
-            System.out.println(a[i]);
+        if(ar[i]>=0&&ar[i]==i)
+            System.out.println(ar[i]);
        }
            
    }
